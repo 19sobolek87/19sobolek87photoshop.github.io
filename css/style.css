@@ -1,0 +1,107 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: Open sans-serif;
+  font-size: 18px;
+}
+.container {
+  position: relative ;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 1500px;
+  margin: 0 auto;
+  background-color: rgb(74 153 211);
+  
+}
+.img  {
+  
+  position: absolute;
+  z-index: 2;
+  top: 47px;
+  right:74px;
+}
+  
+.img1 {
+    position: absolute;
+    z-index: 0;
+    top: 191px;
+    left: 12px;
+}
+
+.img2{
+  position: absolute;
+  z-index: 0;
+  top: 350px;
+  right: 11px;
+}
+
+.img3{
+  position: absolute;
+  z-index: 0;
+  top: 389px;
+  left: 255px;
+}
+
+.item__blue{
+  max-width: 799px;
+  margin: 0 auto;
+  height: 1380px;
+  background-color: rgb(35 65 105);
+  position: relative;
+  top: 103px;
+  left: 0;
+  right: 71px;
+  opacity: .83;
+  padding-left: 70px;
+  padding-right: 71px;
+  padding-top: 88px;
+  padding-bottom: 321px;
+}
+
+.item__blue h1{
+  padding-bottom: 33px;
+
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 20px;
+  /* identical to box height */
+  color: aliceblue;
+ }
+
+ .item__blue p{
+  
+  padding-top: 18px; 
+  padding-bottom: 18px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height */
+  color: aliceblue;
+ }
+
+
+.image img{
+  
+  padding-top:70px;
+  padding-right: 10px;
+  padding-bottom: 53px;
+}
+
+.container__footer{
+  max-width:1200px;
+  margin: 0 auto;
+  height: 125px;
+  margin-bottom: 123px;
+  background-image: url(../img/trava.png);
+  background-repeat:  repeat;
+  margin-top: -100px;
+  position: relative;
+
+}
